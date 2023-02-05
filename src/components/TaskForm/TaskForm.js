@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
-import { Button } from 'components/Button/Button';
 import css from './TaskForm.module.css';
+import { Button } from 'components/Button/Button';
 import { addTask } from 'redux/operations';
 
 export const TaskForm = () => {
